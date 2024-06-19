@@ -1,7 +1,214 @@
+@font-face {
+    font-family: Barlow;
+    src: url("/src/assets/LandingPageFruits/fonts/Barlow-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: BarlowRegular;
+    src: url("/src/assets/LandingPageFruits/fonts/Barlow-Regular.ttf");
+}
+
+@font-face {
+    font-family: FrauncesBlack;
+    src: url("/src/assets/LandingPageFruits/fonts/Fraunces_9pt-Black.ttf");
+}
+
+@font-face {
+    font-family: FrauncesBold;
+    src: url("/src/assets/LandingPageFruits/fonts/Fraunces_9pt-Bold.ttf");
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.landingpagefruits {}
+.home {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/src/assets/LandingPageFruits/images/desktop/image-header.jpg");
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.headerTitle {
+    padding: 2%;
+    color: white;
+    font-size: 2rem;
+    font-family: FrauncesBold;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.buttons>button {
+    font-family: BarlowRegular;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 200;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.contactButton {
+    color: black !important;
+    background-color: white !important;
+}
+
+.contentCenter {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.mainTitle {
+    font-family: FrauncesBlack;
+    font-size: 5rem;
+    color: white;
+}
+
+.arrowDown {
+    cursor: pointer;
+    margin-top: 40px;
+    display: flex;
+    background-position: center;
+    width: 5rem;
+    height: 8rem;
+    background-repeat: no-repeat;
+    background-image: url("/src/assets/LandingPageFruits/images/icon-arrow-down.svg");
+}
+
+.informationFoodOne {
+    width: 100%;
+    height: 200vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+}
+
+.columnOne {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    gap: 30px;
+    height: 70%;
+}
+
+.content>h1 {
+    font-size: 2.5rem;
+    color: hsl(212, 27%, 19%);
+    font-family: FrauncesBlack;
+}
+
+.content>p {
+    font-family: Barlow;
+    color: hsl(210, 4%, 67%);
+}
+
+.buttonLearnMore {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+}
+
+.buttonLearnMore button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: FrauncesBlack;
+    font-size: 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+.buttonLearnMore::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    background-color: #f6efd9;
+    z-index: 0;
+}
+
+.columnTwo {
+    overflow: hidden;
+}
+
+.columnTwo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.columnThree {
+    overflow: hidden;
+}
+
+.columnThree img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.columnFour {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.columnFive {
+    overflow: hidden;
+}
+
+.columnFive img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.columnSix {
+    overflow: hidden;
+}
+
+.columnSix img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
