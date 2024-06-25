@@ -39,10 +39,10 @@ const LandingPageFruits = () => {
                     </div>
                 </div>
                 <div className="columnTwo">
-                    <img src="public/images/desktop/image-transform.jpg" alt="Transform" />
+                    <img src="/images/desktop/image-transform.jpg" alt="Transform" />
                 </div>
                 <div className="columnThree">
-                    <img src="public\images\desktop\image-stand-out.jpg" alt="Transform" />
+                    <img src="\images\desktop\image-stand-out.jpg" alt="Transform" />
                 </div>
                 <div className="columnFour">
                     <div className="content">
@@ -58,14 +58,14 @@ const LandingPageFruits = () => {
                         <h1>Graphic Design</h1>
                         <p>Great design makes you memorable. We deliver <br /> artwork that underscores your brand message <br /> and captures potential clients´ attention.</p>
                     </div>
-                    <img src="public\images\desktop\image-graphic-design.jpg" alt="Transform" />
+                    <img src="\images\desktop\image-graphic-design.jpg" alt="Transform" />
                 </div>
                 <div className="columnSix">
                     <div className="fruitContent">
                         <h1>Photography</h1>
                         <p>Increase your creadibility by getting the most <br /> stunning, high-quality photos that improve your <br /> business image.</p>
                     </div>
-                    <img src="public\images\desktop\image-photography.jpg" alt="Transform" />
+                    <img src="\images\desktop\image-photography.jpg" alt="Transform" />
                 </div>
             </section>
 
@@ -76,7 +76,7 @@ const LandingPageFruits = () => {
                 <div className="persons">
                     <div className="person">
                         <div className="imgPerson">
-                            <img src="public\images\image-emily.jpg" alt="" />
+                            <img src="\images\image-emily.jpg" alt="" />
                         </div>
                         <p>We put our trust in Sunnyside and they <br /> delivered, making sure our needs were met <br /> and deadlines were always hit.</p>
 
@@ -87,7 +87,7 @@ const LandingPageFruits = () => {
                     </div>
                     <div className="person">
                         <div className="imgPerson">
-                            <img src="public\images\image-thomas.jpg" alt="" />
+                            <img src="\images\image-thomas.jpg" alt="" />
                         </div>
                         <p>Sunnyside´s enthusiasm coupled with their <br /> keen interest in our brand´s success made it <br /> a satisfying and enjoyable experience.</p>
                         <div className="autor">
@@ -97,7 +97,7 @@ const LandingPageFruits = () => {
                     </div>
                     <div className="person">
                         <div className="imgPerson">
-                            <img src="public\images\image-jennie.jpg" alt="" />
+                            <img src="\images\image-jennie.jpg" alt="" />
                         </div>
                         <p>Incredible end result! Our sakes increased <br /> over 400% when we worked with Sunnyside. <br /> Highly recommended!</p>
                         <div className="autor">
@@ -110,10 +110,10 @@ const LandingPageFruits = () => {
 
 
             <section className="gallery">
-                <img src="public\images\desktop\image-gallery-milkbottles.jpg" alt="" />
-                <img src="public\images\desktop\image-gallery-orange.jpg" alt="" />
-                <img src="public/images/desktop/image-gallery-cone.jpg" alt="" />
-                <img src="public/images/desktop/image-gallery-sugarcubes.jpg" alt="" />
+                <img src="\images\desktop\image-gallery-milkbottles.jpg" alt="" />
+                <img src="\images\desktop\image-gallery-orange.jpg" alt="" />
+                <img src="/images/desktop/image-gallery-cone.jpg" alt="" />
+                <img src="/images/desktop/image-gallery-sugarcubes.jpg" alt="" />
             </section>
 
             <footer>
@@ -125,16 +125,16 @@ const LandingPageFruits = () => {
                 </div>
                 <div className="iconsFooter">
                     <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                        <img src="public/images/icon-facebook.svg" alt="Facebook" />
+                        <img src="/images/icon-facebook.svg" alt="Facebook" />
                     </a>
                     <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                        <img src="public/images/icon-instagram.svg" alt="Instagram" />
+                        <img src="/images/icon-instagram.svg" alt="Instagram" />
                     </a>
                     <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-                        <img src="public/images/icon-twitter.svg" alt="Twitter" />
+                        <img src="/images/icon-twitter.svg" alt="Twitter" />
                     </a>
                     <a href="https://www.pinterest.com" target="_blank" rel="noopener noreferrer">
-                        <img src="public/images/icon-pinterest.svg" alt="Pinterest" />
+                        <img src="/images/icon-pinterest.svg" alt="Pinterest" />
                     </a>
                 </div>
             </footer>

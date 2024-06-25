@@ -96,7 +96,7 @@ header {
     width: 5rem;
     height: 8rem;
     background-repeat: no-repeat;
-    background-image: url("public/images/icon-arrow-down.svg");
+    background-image: url("/images/icon-arrow-down.svg");
 }
 
 .informationFoodOne {
